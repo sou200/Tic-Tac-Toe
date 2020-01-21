@@ -65,6 +65,7 @@ public static void main(String args[]){
     } else if (fullPos.size() >=9 && win(shape).equals("")){
     System.out.print("draw !!\n");
     }
+        System.out.println("\n");
     }
 }
     
