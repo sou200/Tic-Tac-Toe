@@ -60,10 +60,10 @@ public static void main(String args[]){
     System.out.print("Computer win !!!\n");
     gameStatu=false;
     } else if (win(shape).equals(" O ")){
-    System.out.print("player win !!!\n");
+    System.out.print("You win !!!\n");
     gameStatu=false;
-    } else if (fullPos.size() >=9 && win(shape) == null){
-    System.out.print("draw !!!!!\n");
+    } else if (fullPos.size() >=9 && win(shape).equals("")){
+    System.out.print("draw !!\n");
     }
     }
 }
